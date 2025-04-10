@@ -193,7 +193,7 @@ OpenTelemetry language SDKs offer this functionality.
 > of a logging library.
 
 A Logger Provider (sometimes called `LoggerProvider`) is a factory for
-`Logger`s. In most cases, the Logger Provider is initialized once and its
+`Logger``s. In most cases, the Logger Provider is initialized once and its
 lifecycle matches the application's lifecycle. Logger Provider initialization
 also includes Resource and Exporter initialization.
 
